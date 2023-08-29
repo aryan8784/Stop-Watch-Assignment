@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stop Watch Assignment</title>
+
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="time">
+            <span id="hrs" class="digit" id="hr">0</span>
+            <span class="txt">Hr</span>
+
+            <span id="min" class="digit" id="min">0</span>
+            <span class="txt">min</span>
+
+            <span id="sec" class="digit" id="sec">0</span>
+            <span class="txt">Sec</span>
+
+            <span id="msec" class="digit" id="count">0</span>
+            <span class="txt">Ms</span>
+
+
+        </div>
+        <div id="btn-container">
+            <button class="btn" onclick="start()" id="start">Start</button>
+            <button class="btn" onclick="stop()" id="stop">Pause</button>
+            <button class="btn" id="reset" onclick="resetTimer()">Reset</button>
+
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
